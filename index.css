@@ -1,5 +1,58 @@
-.heading {
-    color: red;
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f6eeee;
+}
+
+.logo {
+    width: 100px;
+    height: 80px;
+}
+
+.nav-items {
+    margin: 0px 50px;
+}
+
+.nav-items > ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-items > ul > li{
     font-family: Arial, Helvetica, sans-serif;
-    font-style: normal5;
+    color: rgb(137, 146, 154);
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+.search-container {
+    text-align: center;
+    padding: 10px;
+}
+
+
+.resturents-container {
+    width: 95%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.resturent-card {
+    text-align: left;
+    width: 250px;
+    background-color: #f0f0f0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1a59d7;
+    border-radius: 16px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.food-img {
+    width: 240px;
+    height:160;
 }
